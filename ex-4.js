@@ -12,3 +12,10 @@ const employees = [
 ];
 
 // Start coding here
+
+let employeesnew1 = {name: "Alicia",age: 29,hobbies : ["shopping", "Reading novels"],};
+let employeesnew2 = {name: "Kody",age: 19,hobbies : ["Computer games","Wakeboard"],};
+
+employees.push(employeesnew1);
+employees.push(employeesnew2); 
+console.log(employees);
